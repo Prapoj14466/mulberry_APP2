@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 
 CORS(app, resources={r"/predict": {"origins": "https://g3weds.consolutechcloud.com"}})
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "model", "final_model2_test.h5")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "model", "final_model2_test2.h5")
 # model = load_model(MODEL_PATH)
 
 import tensorflow as tf
